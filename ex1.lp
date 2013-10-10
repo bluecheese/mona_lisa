@@ -1,0 +1,9 @@
+maximize obj: 1700x1 + 3200x2
+subject to:
+c1: x2 <= 19
+c2: 1.5x1+3x2<=58
+c3:x1+x2<=70
+c4:x1<=13
+c5:x1>=0
+c6:x2>=0
+end
